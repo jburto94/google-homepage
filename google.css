@@ -1,0 +1,145 @@
+.head {
+	margin: 8px 8px 10px 0;
+	float: top;
+	float: right;
+	display: inline-block;
+}
+
+.gmail {
+	text-decoration:none;
+	font-family: sans-serif;
+	margin-right: 10px;
+	font-size: 0.9em;
+	color: #666;
+}
+
+.gmail:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#grid {
+	position: relative;
+	top: 6px;
+	display:inline-block;
+	margin-right:15px;
+	margin-left:10px;
+}
+
+#grid td {
+	height:3px;
+	width:3px;
+	background-color:#8c8c8c;
+}
+
+#grid td:hover {
+	background-color:black;
+}
+
+span {
+	display:inline-block;
+	height: 18px;
+	width:80px;
+	background-color:#1a75ff;
+	font-family:sans-serif;
+	text-align:center;
+	border-radius:3px;
+	margin: 0px 20px 20px 0px;
+	color: white;
+	text-decoration: none;
+	vertical-align:-30%;
+	position: relative;
+	bottom: 5px;
+	padding-top: 8px;
+	padding-bottom: 6px;
+	font-size: 0.9em;
+}
+
+.body {
+	display:block;
+}
+
+#google {
+	position:relative;
+	top: 210px;
+	left: 525px;
+	height: 100px;
+	width: 300px;
+}
+
+#search {
+	position: relative;
+	top: 270px;
+	left: 100px;
+	width: 515px;
+	height: 40px;
+	border: 0.5px solid #1a75ff;
+	padding: 0px 10px 0px 10px;
+}
+
+#mic {
+	position:relative;
+	top:347px;
+	right:148px;
+	float:right;
+	margin-right: -10px;
+	margin-top:1px;
+	width:42px;
+	height:38px;
+	background: url(https://raw.githubusercontent.com/jbialick/google-homepage/master/img/voice_search.png) no-repeat center;
+	background-size: 24px 24px;
+}
+
+.search {
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	color: #757575;
+	height: 38px;
+	width: 150px;
+	background-color:#f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+}
+
+#gsearch {
+	position: relative;
+	top: 346px;
+	right: 330px;
+}
+
+#lucky {
+	position: relative;
+	top: 305px;
+	left: 673px;
+}
+
+.search:hover {
+	border: 1px solid black;
+	color: black;
+}
+
+.foot {
+	position: absolute;
+	display:inline-block;
+	background-color: #f2f2f2;
+	height: 50px;
+	width: 1360px;
+	clear: both;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 50px;
+	bottom: 0;
+	left: 0;
+	word-spacing: 1.2em;
+}
+
+.left {
+	float: left;
+	margin-left: 30px;
+}
+
+.right {
+	margin-right: 25px;
+	float: right;
+}
